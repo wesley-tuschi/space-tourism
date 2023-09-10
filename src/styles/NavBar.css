@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Outfit&display=swap');
+
+.nav-link {
+  color: #FFF !important;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16875rem;
+
+  }
+  
+  .menu-button {
+    z-index: 1000;
+    position: relative; 
+  }
+
+  @media screen and (max-width: 768px) {
+    .collapse.navbar-collapse.menu-open {
+      padding: 60px 0px 0px 30px;
+      height: 100vh;
+      width: 50%;
+      position: fixed;
+      top: 0px;
+      right: 0;
+      background-color: rgba(37, 37, 37, 0.95);
+      z-index: 999;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .main {
+      background-image: url('../assets/home/background-home-tablet.jpg');
+    }
+    .nav-link::after {
+      content: "";
+      display: block;
+      height: 2px;
+      background: white;
+      transform: translateY(35px);
+      opacity: 0;
+    }
+    
+    .nav-link.active::after {
+      opacity: 1;
+    }
+    
+  }
+
+  @media (min-width: 1024px) {
+    .main {
+      background-image: url('../assets/home/background-home-desktop.jpg');
+
+    }
+    .logo {
+      margin: 0.6em 0 0 2em;
+    }
+
+    .no-padding {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+    .navbar-content {
+      backdrop-filter: blur(25px);
+      border: solid 1px #ffffff;
+      padding: 28px 265px 28px 323px;
+      margin-top: 1.5em;
+      z-index: 999;
+      
+    }
+    .nav-item {
+      z-index: 1002;
+      }
+      
+      .line {
+        width: 800px;
+        margin-top: 20px;
+        height: 1px;
+        position: absolute;
+        background-color: #ffffff;
+        margin-left: 10em;
+        opacity: 0.2515;
+        z-index: 1001;
+      }
+  }

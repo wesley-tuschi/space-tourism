@@ -1,0 +1,20 @@
+.destination {
+    background-image: url('../assets/destination/background-destination-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+  }
+
+  @media (min-width: 768px) {
+    .destination {
+      background-image: url('../assets/destination/background-destination-tablet.jpg');
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .destination {
+      background-image: url('../assets/destination/background-destination-desktop.jpg');
+    }
+  }
+
+
