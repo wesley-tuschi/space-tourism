@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <div className="home vh-100">
            <NavBar />
+      <div className='main-section'>
         <div className="container cont-main">
           <h2>SO, YOU WANT TO TRAVEL TO</h2>
           <h1>SPACE</h1>
@@ -16,6 +17,7 @@ const Home = () => {
         </div>
         <div className="container button">
         <button className="btn">EXPLORE</button>
+        </div>
         </div>
       </div>
       

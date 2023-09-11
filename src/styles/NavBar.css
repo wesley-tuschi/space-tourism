@@ -64,7 +64,6 @@
     
     .navbar-content {
       backdrop-filter: blur(25px);
-      border: solid 1px #ffffff;
       padding: 28px 265px 28px 323px;
       margin-top: 1.5em;
       z-index: 999;
@@ -75,7 +74,7 @@
       }
       
       .line {
-        width: 800px;
+        width: 900px;
         margin-top: 20px;
         height: 1px;
         position: absolute;
