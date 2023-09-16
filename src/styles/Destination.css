@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
 
 .destination {
-  background-image: url('../assets/destination/background-destination-mobile.jpg');
+  background-image: url("../assets/destination/background-destination-mobile.jpg");
   background-size: cover;
   background-position: center;
-  color: #FFF;
+  color: #fff;
   height: 100vh;
   width: 100vw;
 }
@@ -17,58 +18,57 @@ body, html {
 h2 {
   margin-bottom: 4em;
   margin-top: 4em;
-  color: #FFF;
-font-family: Barlow Condensed;
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 4.725px;
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
 }
 h1 {
   text-transform: uppercase;
-  color: #FFF;
-font-family: Bellefair;
-font-size: 100px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 h3 {
-  color: #D0D6F9;
-font-family: Barlow Condensed;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 2.362px;
-text-transform: uppercase;
+  color: #d0d6f9;
+  font-family: Barlow Condensed;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362px;
+  text-transform: uppercase;
 }
 
-.planets-names{
-  color: #FFF;
-font-family: Barlow Condensed;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 2.7px;
-padding-top: 20px;
+.planets-names {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.7px;
+  padding-top: 20px;
 }
 
 .description {
-  color: #D0D6F9;
-font-family: Barlow;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
+  color: #d0d6f9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
 
-
 .dates {
-  color: #FFF;
+  color: #fff;
   font-family: Bellefair;
   font-size: 28px;
   font-style: normal;
@@ -78,22 +78,19 @@ line-height: 32px;
 }
 @media (min-width: 768px) {
   .destination {
-    background-image: url('../assets/destination/background-destination-tablet.jpg');
-    }
+    background-image: url("../assets/destination/background-destination-tablet.jpg");
   }
-  
-  @media (min-width: 1024px) {
-    .destination {
-      background-image: url('../assets/destination/background-destination-desktop.jpg');
-    }
-    .line-down {
-            width: 500px;
-            margin-top: 20px;
-            height: 1px;
-            background-color: #ffffff;
-            opacity: 0.2515;
-    }
+}
+
+@media (min-width: 1024px) {
+  .destination {
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
   }
-  
-  
-  
+  .line-down {
+    width: 500px;
+    margin-top: 20px;
+    height: 1px;
+    background-color: #ffffff;
+    opacity: 0.2515;
+  }
+}

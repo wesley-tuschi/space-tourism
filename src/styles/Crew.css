@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 4.725px;
+}
+
+span {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.725px;
+  opacity: 0.25;
+}
+
+h3 {
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  opacity: 0.5042;
+}
+
+h2 {
+  color: #fff;
+  font-family: Bellefair;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+p {
+  color: #d0d6f9;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.picture {
+  position: relative;
+}
+
+.crew-img {
+  position: absolute;
+  bottom: 0;
+}
+
+.car-buts-cre {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.car-but-cre {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 10px;
+  cursor: pointer;
+  background-color: gray;
+  color: transparent;
+}
+
+.car-but-cre.selected {
+  background-color: white; /* Cor quando selecionado */
+}
+
+.crew {
+  background-image: url("../assets/crew/background-crew-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.crew-container {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.crew-container-exit {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .crew {
+    background-image: url("../assets/crew/background-crew-tablet.jpg");
+  }
+}
+
+@media (min-width: 1024px) {
+  .crew {
+    background-image: url("../assets/crew/background-crew-desktop.jpg");
+  }
+}

@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap");
 
 .home {
-  background-image: url('../assets/home/background-home-mobile.jpg');
+  background-image: url("../assets/home/background-home-mobile.jpg");
   background-size: cover;
   background-position: center;
-  color: #FFF;
+  color: #fff;
 }
 
 h2 {
-  color: #D0D6F9;
+  color: #d0d6f9;
   text-align: center;
-  font-family: 'Barlow', Condensed;
+  font-family: "Barlow", Condensed;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -21,9 +21,9 @@ h2 {
 h1 {
   margin-top: 30px;
   margin-bottom: 30px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
-  font-family: 'Bellefair', serif;
+  font-family: "Bellefair", serif;
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
@@ -31,31 +31,31 @@ h1 {
 }
 
 p {
-  color: #D0D6F9;
+  color: #d0d6f9;
   text-align: center;
-  font-family: 'Barlow';
+  font-family: "Barlow";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
 }
 
-.button {
+.button-home {
   display: flex;
   justify-content: center;
   margin-top: 6em;
 }
 
-.btn {
-  color: #0B0D17;
+.btn-home {
+  color: #0b0d17;
   text-align: center;
-  font-family: 'Bellefair';
+  font-family: "Bellefair";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.25px;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 75px;
   width: 150px;
   height: 150px;
@@ -67,19 +67,19 @@ p {
   max-width: 72%;
 }
 
-.btn:hover {
-  background-color: #FFF;
-  color: #0B0D17;
+.btn-home:hover {
+  background-color: #fff;
+  color: #0b0d17;
   box-shadow: 0px 0px 20px 50px rgba(36, 38, 47, 0.849);
 }
 
 @media (min-width: 768px) {
   .home {
-    background-image: url('../assets/home/background-home-tablet.jpg');
+    background-image: url("../assets/home/background-home-tablet.jpg");
   }
 
   h1 {
-    color: #FFF;
+    color: #fff;
     font-family: Bellefair;
     font-size: 150px;
     font-style: normal;
@@ -88,7 +88,7 @@ p {
   }
 
   h2 {
-    color: #D0D6F9;
+    color: #d0d6f9;
     text-align: center;
     font-family: Barlow Condensed;
     font-size: 20px;
@@ -99,7 +99,7 @@ p {
   }
 
   p {
-    color: #D0D6F9;
+    color: #d0d6f9;
     text-align: center;
     font-family: Barlow;
     font-size: 16px;
@@ -113,12 +113,12 @@ p {
     max-width: 50%;
   }
 
-  .btn {
+  .btn-home {
     width: 242px;
     height: 242px;
     flex-shrink: 0;
     border-radius: 242px;
-    color: #0B0D17;
+    color: #0b0d17;
     font-family: Bellefair;
     font-size: 32px;
     font-style: normal;
@@ -128,19 +128,19 @@ p {
     margin-top: 6em;
   }
 
-  .btn:hover {
-    background-color: #FFF;
-    color: #0B0D17;
+  .btn-home:hover {
+    background-color: #fff;
+    color: #0b0d17;
   }
 }
 
 @media (min-width: 1024px) {
   .home {
-    background-image: url('../assets/home/background-home-desktop.jpg');
+    background-image: url("../assets/home/background-home-desktop.jpg");
   }
 
   h1 {
-    color: #FFF;
+    color: #fff;
     font-family: Bellefair;
     font-size: 150px;
     font-style: normal;
@@ -149,7 +149,7 @@ p {
   }
 
   h2 {
-    color: #D0D6F9;
+    color: #d0d6f9;
     font-family: Barlow Condensed;
     font-size: 28px;
     font-style: normal;
@@ -159,7 +159,7 @@ p {
   }
 
   p {
-    color: #D0D6F9;
+    color: #d0d6f9;
     font-family: Barlow;
     font-size: 18px;
     font-style: normal;
@@ -189,5 +189,4 @@ p {
     border-radius: 274px;
     margin-top: 7em;
   }
-
 }

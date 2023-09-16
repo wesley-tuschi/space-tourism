@@ -28,13 +28,14 @@ const Destination = () => {
             <img
               src={require(`../${planetInfo.images.png}`)}
               alt={planetInfo.name}
-              className="img-fluid"
+              className='img-fluid'
             />
           )}
         </div>
         <div className='col-6 .col-md-4 infos'>
           {destinationData.destinations.map((destination, index) => (
-            <span className="planets-names"
+            <span
+              className='planets-names'
               key={index}
               onClick={() => handlePlanetClick(destination.name)}
             >
@@ -44,7 +45,7 @@ const Destination = () => {
           {planetInfo && (
             <div>
               <h1>{planetInfo.name}</h1>
-              <p className="description">{planetInfo.description}</p>
+              <p className='description'>{planetInfo.description}</p>
               <div className='line-down'></div>
               <div className='row row-cols-2 text-center infos'>
                 <h3 className='col'>AVG. DISTANCE</h3>
